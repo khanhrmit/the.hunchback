@@ -1,0 +1,415 @@
+body{margin: 0px; zoom: 91.75%; background-color: #1C252B;}
+html{
+    cursor: url("cursor.svg"), auto;}
+
+
+#cover{position: relative;
+top: 0px;}
+
+#title{ font-size: 170px;
+font-family: Chelsea Market;
+text-align: center;
+position: absolute;
+top: 90px;
+left: 195px;
+color: #BCBA6D;}
+#title:hover{color: #C3D3AC;}
+
+#author{ font-size: 36px;
+font-family: Chelsea Market;
+position: absolute;
+top: 650px;
+left: 860px;
+color: #C3D3AC;}
+#title:hover ~ #author{color: #BCBA6D;}
+
+#poem1{color: #EFDFDF;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 300px;
+left: 100px;}
+#poem1:hover{color: #B77E8D;}
+
+#poem2{color: #43200D;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 854px;
+left: 770px;}
+#poem2:hover{color: #7A5F4A;}
+
+#poem3{color: #1C252B;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 420px;
+left: 520px;}
+#poem3:hover{color: #56687E;}
+
+#poem4{color: #EFDFDF;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 460px;
+left: 400px;}
+#poem4:hover{color: #43200D;}
+
+#poem5{color: #EFDFDF;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 70px;
+left: 110px;}
+#poem5:hover{color: #B77E8D;}
+
+#poem51{color: #43200D;
+    font-family: Chelsea Market;
+    font-size: 36px;
+    position: absolute;
+    top: 850px;
+    left: 295px;}
+    #poem51:hover{color: #7A5F4A;}
+
+#poem6{color: #1C242B; text-shadow:0px 0px 5px #EFDFDF;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 780px;
+left: 80px;}
+#poem6:hover{color: #56687E;}
+
+#poem7{color: #250102;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 94px;
+left: 500px;}
+#poem7:hover{color: #8B5C6E;}
+
+#poem8{color: #1C242B;
+font-family: Chelsea Market;
+font-size: 36px;
+position: absolute;
+top: 780px;
+left: 80px;}
+#poem8:hover{color: #56687E;}
+
+
+#background1, #hunchback1, #light, #fronttrees, .crow,
+#bucket, .pig,
+#hunchback3, #bubble, .snow,
+#eye,#fish,
+#baby, #background5,
+#crowd1, #crowd2, #background51, #balloon,
+#background6, #background61,#kid,
+#bubble7, #background7, .legs, #background71, #frontsnow,
+#background8, #footstep1, #footstep2{position: absolute; 
+    top: 0px;} 
+
+
+
+
+
+
+#crowtitle{top: 700px; left: 0px;}
+#crowtitle{animation-name: flyingtt;
+animation-duration: 6s;
+animation-timing-function: cubic-bezier(0.56, 0.26, 0.3, 1.16);}
+@keyframes flyingtt
+{0%{top: 700px;left: 0px;} 
+90%{top: -150px; left: 1500px;}
+100%{top: 700px;left: 0px;}}
+    
+
+
+
+
+
+
+
+#hunchback1{animation-name: climbhill;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-iteration-count: 1;}
+@keyframes climbhill
+{0%{top: 180px; left: -400px;}
+  90%{top: -80px; left: 200px;}
+100%{top: 0px;left: 0px;}}
+
+#light{animation-name: lighting;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-iteration-count: 1;}
+@keyframes lighting
+{0%{transform-origin: top right; transform: rotateZ(10deg);}
+    90%{transform-origin: top right; transform: rotateZ(-10deg); top: -20px;}
+100%{transform: rotateZ(0deg); top: 0px;}}
+
+#crow1{top: 500px; left: 400px;}
+#crow1{animation-name: flying1;
+animation-duration: 6s;
+animation-timing-function: cubic-bezier(0.56, 0.26, 0.3, 1.16);}
+@keyframes flying1
+{10%{top: 500px;left: 400px;} 
+90%{top: -300px; left: 1200px;}
+100%{top: 500px;left: 400px;}}
+
+#crow2{top: 1px; left: 1px;}
+#crow2{animation-name: flying2;
+animation-duration: 6s;
+animation-timing-function: cubic-bezier(0.56, 0.26, 0.3, 1.16);}
+@keyframes flying2
+{0%{top: 1px;left: 1px;} 
+90%{top: -300px; left: 1200px;}
+100%{top: 1px;left: 1px;}}
+
+#crow3{top: 200px; left: 700px;}
+#crow3{animation-name: flying3;
+animation-duration: 6s;
+animation-timing-function: cubic-bezier(0.56, 0.26, 0.3, 1.16);}
+@keyframes flying3
+{20%{top: 200px;left: 700px;} 
+90%{top: -300px; left: 1200px;}
+100%{top: 200px;left: 700px;}}
+
+#crow4{top: 300px; left: 1150px;}
+#crow4{animation-name: flying4;
+animation-duration: 6s;
+animation-timing-function: cubic-bezier(0.56, 0.26, 0.3, 1.16);}
+@keyframes flying4
+{25%{top: 300px;left: 1150px;} 
+90%{top: -300px; left: 1400px;}
+100%{top: 300px;left: 1150px;}}
+
+
+
+
+
+
+#bucket{top: 30px; left: 710px;}
+#bucket:hover{animation-name: bucketup;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+@keyframes bucketup
+{0%{top: 30px; left: 710px;}
+33%{transform: translateY(20px) translateX(30px)rotateZ(5deg)}
+66%{transform: translateY(20px) translateX(-30px);}}
+
+#pig1{top: 410px}
+#pig1:hover{animation-name: pig1;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+@keyframes pig1
+{0%{top: 410px}
+50%{transform: translateY(20px);}
+100%{top: 410px}}
+
+#pig2{top: 220px}
+#pig2:hover{animation-name: pig2;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+@keyframes pig2
+{0%{top: 220px}
+50%{transform: translateY(-20px);}
+100%{top: 220px}}
+
+#pig3{top: 0px}
+#pig3:hover{animation-name: pig3;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+@keyframes pig3
+{0%{top: 0px}
+50%{transform: translateY(-20px);}
+100%{top: 0px}}
+
+#pig4{top: 220px}
+#pig4:hover{animation-name: pig4;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+@keyframes pig4
+{0%{top: 220px}
+50%{transform: translateY(-20px);}
+100%{top: 220px}}
+
+#pig5{top: 0px}
+#pig5:hover{animation-name: pig3;
+animation-duration:1s;
+animation-iteration-count: infinite;}
+
+
+
+
+
+
+#hunchback3{animation-name: walk;
+animation-duration: 10s;}
+@keyframes walk
+{10%{top: 0px;left: 0px;}
+90%{left: -700px;}
+100%{top: 0px;left: 0px;}}
+
+#snow1{top: 140px; left: 1200px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow1:hover{animation-play-state: paused;}
+
+#snow2{top: 760px; left: 685px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow2:hover{animation-play-state: paused;}
+
+#snow3{top: 90px; left: 70px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow3:hover{animation-play-state: paused;}
+
+#snow4{top: 690px; left: 1225px;
+animation-name: spin;
+animation-duration: 5s;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow4:hover{animation-play-state: paused;}
+
+#snow5{top: 295px; left: 425px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow5:hover{animation-play-state: paused;}
+
+#snow6{top: 10px; left: 845px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow6:hover{animation-play-state: paused;}
+
+@keyframes spin
+{to{transform: rotateZ(360deg);}}
+
+
+
+
+
+
+#eye{animation-name: zoom-in;
+animation-duration: 8s;
+animation-timing-function: ease-in;}
+@keyframes zoom-in
+{
+    7%{transform: scale(1) translateX(0px);}
+    50%{transform: scale(45) translateX(-50px) translateY(50px);}
+    100%{transform: scale(45) translateX(-50px) translateY(50px);}
+}
+
+#fish{transform-origin: 242px;
+    animation-name: appear;
+animation-duration: 8s;
+animation-timing-function: ease-out;}
+@keyframes appear
+{
+    0%{opacity: 0%; transform: scale(47)}
+    40%{opacity: 0%; transform: scale(47) translateY(10px)}
+    95%{opacity: 100%; transform: scale(1) translateY(10px)}
+}
+
+
+
+
+
+
+#baby{transform-origin: 1000px;
+animation-name: wiggle;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+@keyframes wiggle
+{0%{transform: rotateZ(-5deg);}
+50%{transform: rotateZ(5deg);}
+100%{transform: rotateZ(-5deg);}}
+
+#kid{top: 580px;left: 580px;}
+
+#crowd1{top: 300px; left: 0px;}
+#kid:hover ~ #crowd1 {animation-name: crowdleft;
+animation-duration: 8s;}
+@keyframes crowdleft
+{0%{top: 300px; left: 0px;}
+90%{transform: translateX(-1000px);}}
+    
+#crowd2{top: 275px; left: 780px;}
+#kid:hover ~ #crowd2 {animation-name: crowdright;
+animation-duration: 8s;}
+@keyframes crowdright
+{0%{top: 275px; left: 780px;}
+90%{transform: translateX(1000px);}}
+
+#balloon{top: 350px;left: 760px;}
+#kid:hover ~ #balloon {animation-name: balloon;
+animation-duration: 8s;}
+@keyframes balloon
+{0%{top: 350px;left: 760px;}
+90%{transform: translateX(200px) translateY(-500px);}}
+
+
+
+
+
+#background6:hover{animation-name: fade;
+animation-duration: 10s;}
+@keyframes fade
+{0%{opacity: 100%;}
+70%{opacity: 0%;}
+90%{opacity: 0%;}
+100%{opacity: 100%;}}
+
+
+
+
+
+
+#bubble7{top: -40px; left: -15px;}
+#snow7{top: 460px; left: 150px;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+#snow7:hover{animation-play-state: paused;}
+
+#leg1{transform-origin: top left;
+animation-name: trampling;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+@keyframes trampling
+{   
+    0%{transform: rotateZ(0deg);}
+    25%{transform: rotateZ(-10deg)translateY(-10px);}
+    75%{transform: rotateZ(5deg)}
+    100%{transform: rotateZ(0deg);}
+}
+
+
+
+
+
+#footstep1{animation-name: footstep1;
+animation-duration: 2s;
+animation-iteration-count: infinite;}
+@keyframes footstep1
+{0%{opacity: 100%;}
+50%{opacity: 0%;}
+100%{opacity: 100%;}}
+
+#footstep2{animation-name: footstep2;
+animation-duration: 2s;
+animation-iteration-count: infinite;}
+@keyframes footstep2
+{0%{opacity: 0%;}
+50%{opacity: 100%;}
+100%{opacity: 0%;}}
